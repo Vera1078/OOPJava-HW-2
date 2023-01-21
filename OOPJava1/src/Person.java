@@ -12,14 +12,12 @@ public class Person {
     public Person (String name, int age ){
         this.name = name;
         this.age = age;
-//        this.sex = sex;
+
         countID ++;
         this.ID = countID;
 
     }
-//    public Person (String name, int age, Boolean sex ){
-//        this (name, age, sex);
-//    }
+
 
     @Override
     public String toString() {
